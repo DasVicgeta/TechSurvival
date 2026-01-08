@@ -1,0 +1,368 @@
+[16:49:31] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.18.2
+[16:49:32] [main/INFO]: Loading 171 mods:
+	- alternate-current 1.9.0
+	- c2me 0.3.6+beta.1.0+1.21.11
+	   |-- c2me-base 0.3.6+beta.1.0+1.21.11
+	   |-- c2me-client-uncapvd 0.3.6+beta.1.0+1.21.11
+	   |-- c2me-fixes-chunkio-threading-issues 0.3.6+beta.1.0+1.21.11
+	   |-- c2me-fixes-general-threading-issues 0.3.6+beta.1.0+1.21.11
+	   |-- c2me-fixes-worldgen-threading-issues 0.3.6+beta.1.0+1.21.11
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.3.6+beta.1.0+1.21.11
+	   |-- c2me-notickvd 0.3.6+beta.1.0+1.21.11
+	   |-- c2me-opts-allocs 0.3.6+beta.1.0+1.21.11
+	   |-- c2me-opts-chunkio 0.3.6+beta.1.0+1.21.11
+	   |-- c2me-opts-dfc 0.3.6+beta.1.0+1.21.11
+	   |-- c2me-opts-math 0.3.6+beta.1.0+1.21.11
+	   |-- c2me-opts-scheduling 0.3.6+beta.1.0+1.21.11
+	   |-- c2me-opts-worldgen-general 0.3.6+beta.1.0+1.21.11
+	   |-- c2me-opts-worldgen-vanilla 0.3.6+beta.1.0+1.21.11
+	   |-- c2me-rewrites-chunk-serializer 0.3.6+beta.1.0+1.21.11
+	   |-- c2me-rewrites-chunk-system 0.3.6+beta.1.0+1.21.11
+	   |-- c2me-rewrites-chunkio 0.3.6+beta.1.0+1.21.11
+	   |-- c2me-server-utils 0.3.6+beta.1.0+1.21.11
+	   |-- c2me-threading-lighting 0.3.6+beta.1.0+1.21.11
+	   |-- com_electronwill_night-config_core 3.6.5
+	   |-- com_electronwill_night-config_toml 3.6.5
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- io_reactivex_rxjava3_rxjava 3.1.12
+	   |-- mixinsquared 0.2.0-beta.6
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- org_jctools_jctools-core 4.0.5
+	   \-- org_reactivestreams_reactive-streams 1.0.4
+	- carpet 1.4.193+v251211
+	- carpet-tis-addition 1.72.2
+	   \-- conditional-mixin 0.6.4
+	- cloth-config 21.11.151
+	   \-- cloth-basic-math 0.6.1
+	- collective 8.13
+	- essential-addons 2.3.0+1.21.11
+	   |-- arcade-commands 0.8.0-beta.1
+	   |-- arcade-event-registry 0.8.0-beta.1
+	   |-- arcade-events-server 0.8.0-beta.1
+	   |-- arcade-extensions 0.8.0-beta.1
+	   |-- arcade-utils 0.8.0-beta.1
+	   \-- fabric-permissions-api-v0 0.6.1
+	- fabric-api 0.139.5+1.21.11
+	   |-- fabric-api-base 1.0.5+4ebb5c083e
+	   |-- fabric-api-lookup-api-v1 1.6.113+1fb1cde93e
+	   |-- fabric-biome-api-v1 17.1.1+4fc5413f3e
+	   |-- fabric-block-api-v1 1.1.10+4ebb5c083e
+	   |-- fabric-block-view-api-v2 1.0.39+4ebb5c083e
+	   |-- fabric-command-api-v2 2.4.7+6b42a6003e
+	   |-- fabric-content-registries-v0 10.2.14+4fc5413f3e
+	   |-- fabric-convention-tags-v1 2.1.55+7f945d5b3e
+	   |-- fabric-convention-tags-v2 2.17.3+8ef948ba3e
+	   |-- fabric-crash-report-info-v1 0.3.23+4ebb5c083e
+	   |-- fabric-data-attachment-api-v1 1.8.43+1fb1cde93e
+	   |-- fabric-data-generation-api-v1 23.3.0+ae1056283e
+	   |-- fabric-dimensions-v1 4.0.28+4fc5413f3e
+	   |-- fabric-entity-events-v1 3.0.5+4ebb5c083e
+	   |-- fabric-events-interaction-v0 4.0.44+1fb1cde93e
+	   |-- fabric-game-rule-api-v1 2.0.3+4fc5413f3e
+	   |-- fabric-item-api-v1 11.5.20+d0c46b9e3e
+	   |-- fabric-item-group-api-v1 4.2.36+4fc5413f3e
+	   |-- fabric-key-binding-api-v1 1.1.7+4fc5413f3e
+	   |-- fabric-lifecycle-events-v1 2.6.15+4ebb5c083e
+	   |-- fabric-loot-api-v2 3.0.73+3f89f5a53e
+	   |-- fabric-loot-api-v3 2.0.20+78c8b4663e
+	   |-- fabric-message-api-v1 6.1.12+4ebb5c083e
+	   |-- fabric-networking-api-v1 5.1.5+ae1e07683e
+	   |-- fabric-object-builder-api-v1 21.1.38+4fc5413f3e
+	   |-- fabric-particles-v1 4.2.11+4fc5413f3e
+	   |-- fabric-recipe-api-v1 8.2.3+4ebb5c083e
+	   |-- fabric-registry-sync-v0 6.2.4+4ebb5c083e
+	   |-- fabric-rendering-fluids-v1 3.1.43+4ebb5c083e
+	   |-- fabric-rendering-v1 16.2.6+1fb1cde93e
+	   |-- fabric-resource-conditions-api-v1 5.0.35+4fc5413f3e
+	   |-- fabric-resource-loader-v0 3.3.4+4fc5413f3e
+	   |-- fabric-resource-loader-v1 1.0.10+78c8b4663e
+	   |-- fabric-screen-api-v1 3.1.7+4ebb5c083e
+	   |-- fabric-screen-handler-api-v1 1.3.160+4fc5413f3e
+	   |-- fabric-serialization-api-v1 1.0.5+4ebb5c083e
+	   |-- fabric-sound-api-v1 1.0.51+4fc5413f3e
+	   |-- fabric-tag-api-v1 1.2.20+4fc5413f3e
+	   |-- fabric-transfer-api-v1 6.0.24+4fc5413f3e
+	   \-- fabric-transitive-access-wideners-v1 7.0.8+0107c3da3e
+	- fabric-language-kotlin 1.13.7+kotlin.2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.2.21
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.29.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.7.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.9.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.9.0
+	- fabricloader 0.18.2
+	   \-- mixinextras 0.5.0
+	- ferritecore 8.0.3
+	- floodgate 2.2.6-SNAPSHOT
+	   |-- aopalliance_aopalliance 1.0
+	   |-- cloud 2.0.0-beta.15
+	   |    |-- io_leangen_geantyref_geantyref 1.3.15
+	   |    |-- org_incendo_cloud-brigadier 2.0.0-beta.14
+	   |    |-- org_incendo_cloud-core 2.0.0
+	   |    |-- org_incendo_cloud-minecraft-modded-common-fabric-repack 2.0.0-beta.15
+	   |    \-- org_incendo_cloud-services 2.0.0
+	   |-- com_google_guava_failureaccess 1.0.1
+	   |-- fabric-permissions-api-v0 0.6.1
+	   |-- jakarta_inject_jakarta_inject-api 2.0.1
+	   |-- javax_inject_javax_inject 1
+	   |-- org_geysermc_cumulus_cumulus 1.1.2
+	   |-- org_geysermc_event_events 1.1-SNAPSHOT
+	   |-- org_geysermc_geyser_common_unshaded 2.2.1-SNAPSHOT
+	   |-- org_java-websocket_java-websocket 1.5.2
+	   \-- org_lanternpowered_lmbda 2.0.0
+	- geyser-fabric 2.9.2-SNAPSHOT
+	   |-- cloud 2.0.0-beta.15
+	   |    |-- io_leangen_geantyref_geantyref 1.3.15
+	   |    |-- org_incendo_cloud-brigadier 2.0.0-beta.14
+	   |    |-- org_incendo_cloud-core 2.0.0
+	   |    |-- org_incendo_cloud-minecraft-modded-common-fabric-repack 2.0.0-beta.15
+	   |    \-- org_incendo_cloud-services 2.0.0
+	   |-- com_google_code_findbugs_jsr305 3.0.2
+	   |-- com_google_errorprone_error_prone_annotations 2.27.0
+	   |-- com_google_j2objc_j2objc-annotations 1.3
+	   |-- com_nukkitx_natives 1.0.3
+	   |-- fabric-permissions-api-v0 0.6.1
+	   |-- io_airlift_aircompressor 0.27
+	   |-- io_netty_netty-codec-haproxy 4.2.7
+	   |-- net_jodah_expiringmap 0.5.10
+	   |-- net_kyori_adventure-api 4.25.0
+	   |-- net_kyori_adventure-key 4.25.0
+	   |-- net_kyori_adventure-nbt 4.25.0
+	   |-- net_kyori_adventure-text-serializer-commons 4.25.0
+	   |-- net_kyori_adventure-text-serializer-gson 4.25.0
+	   |-- net_kyori_adventure-text-serializer-json 4.25.0
+	   |-- net_kyori_adventure-text-serializer-json-legacy-impl 4.25.0
+	   |-- net_kyori_adventure-text-serializer-legacy 4.25.0
+	   |-- net_kyori_adventure-text-serializer-plain 4.25.0
+	   |-- net_kyori_examination-api 1.3.0
+	   |-- net_kyori_examination-string 1.3.0
+	   |-- net_kyori_option 1.1.0
+	   |-- net_lenni0451_commons_gson 1.9.0
+	   |-- net_lenni0451_commons_httpclient 1.9.0
+	   |-- net_raphimc_minecraftauth 5.0.0
+	   |-- org_bitbucket_b_c_jose4j 0.9.6
+	   |-- org_bstats_bstats-base 3.1.0
+	   |-- org_cloudburstmc_math_api 2.0
+	   |-- org_cloudburstmc_math_immutable 2.0
+	   |-- org_cloudburstmc_nbt 3.0.3
+	   |-- org_geysermc_api_base-api 1.0.2
+	   |-- org_geysermc_cumulus_cumulus 1.1.2
+	   |-- org_geysermc_event_events 1.1-SNAPSHOT
+	   \-- org_lanternpowered_lmbda 2.0.0
+	- java 21
+	- lithium 0.21.1+mc1.21.11
+	- minecraft 1.21.11
+	- scalablelux 0.1.6+fabric.c25518a
+	- servercore 1.5.15+1.21.11
+	   |-- org_yaml_snakeyaml 2.5
+	   |-- placeholder-api 2.8.1+1.21.10
+	   |-- space_arim_dazzleconf_dazzleconf-core 1.3.0-M2
+	   \-- space_arim_dazzleconf_dazzleconf-ext-snakeyaml 1.3.0-M2
+	- skinshuffle 2.10.1
+	   |-- com_drewnoakes_metadata-extractor 2.19.0
+	   |-- com_konghq_unirest-java_standalone 3.11.9
+	   |-- commons-validator_commons-validator 1.7
+	   |-- org_jsoup_jsoup 1.16.1
+	   |-- spruceui 9.1.0+1.21.11
+	   |-- yet_another_config_lib_v3 3.8.1+1.21.11-fabric
+	   |    |-- com_twelvemonkeys_common_common-image 3.12.0
+	   |    |-- com_twelvemonkeys_common_common-io 3.12.0
+	   |    |-- com_twelvemonkeys_common_common-lang 3.12.0
+	   |    |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+	   |    |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+	   |    |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+	   |    |-- org_quiltmc_parsers_gson 0.2.1
+	   |    \-- org_quiltmc_parsers_json 0.2.1
+	   \-- yumi_mc_core 1.0.0-beta.1+1.21.11
+	        |-- yumi_commons_collections 1.0.0
+	        |-- yumi_commons_core 1.0.0
+	        \-- yumi_commons_event 1.0.0
+	- spark 1.10.156
+	   \-- fabric-permissions-api-v0 0.6.1
+	- syncmatica 0.3.15
+	   \-- fabric-permissions-api-v0 0.6.1
+	- voicechat 1.21.11-2.6.7
+	   |-- fabric-key-binding-api-v1 1.1.7+4fc5413f53
+	   |-- fabric-rendering-v1 16.2.5+1fb1cde953
+	   \-- voicechat_api 2.6.0
+[16:49:32] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/TechSurvival/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[16:49:32] [main/INFO]: Compatibility level set to JAVA_16
+[16:49:32] [main/INFO]: Compatibility level set to JAVA_17
+[16:49:32] [main/INFO]: Compatibility level set to JAVA_21
+[16:49:32] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[16:49:32] [main/INFO]: Global Executor Parallelism: 3 configured, 3 evaluated, 3 default evaluated
+[16:49:32] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[16:49:32] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[16:49:32] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[16:49:32] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[16:49:32] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[16:49:32] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[16:49:32] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[16:49:32] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[16:49:32] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[16:49:32] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[16:49:32] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[16:49:32] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[16:49:32] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[16:49:32] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[16:49:32] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[16:49:32] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[16:49:32] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[16:49:32] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[16:49:33] [main/INFO]: Loaded configuration file for Lithium: 164 options available, 0 override(s) found.
+[16:49:33] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:49:33] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:49:33] [main/WARN]: Error loading class: eu/pb4/polymer/common/impl/entity/InternalEntityHelpers (java.lang.ClassNotFoundException: eu/pb4/polymer/common/impl/entity/InternalEntityHelpers)
+[16:49:33] [main/WARN]: @Mixin target eu.pb4.polymer.common.impl.entity.InternalEntityHelpers was not found arcade-extensions.mixins.json:compat.InternalEntityHelpersMixin from mod arcade-extensions
+[16:49:34] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[16:49:42] [main/INFO]: Loading Collective version 8.13.
+[16:49:42] [TISCM Mapping/INFO]: Yarn mapping file yarn-1.21.11+build.3-v2.tiny loaded
+[16:49:42] [main/WARN]: en_ is not a supported Floodgate language.
+[16:49:43] [main/INFO]: Loading extensions...
+[16:49:43] [main/INFO]: Loaded 0 extension(s)
+[16:49:44] [main/INFO]: [ServerCore] Loaded V1.5.15+1.21.11!
+[16:49:44] [main/INFO]: [voicechat] Compatibility version 20
+[16:49:44] [main/INFO]: [voicechat] Loading plugins
+[16:49:44] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[16:49:44] [main/INFO]: [voicechat] Initializing plugins
+[16:49:44] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[16:49:44] [main/INFO]: Initializing mods (entrypoint yumi:init)...
+[16:49:44] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[16:49:47] [main/INFO]: Loaded 1470 recipes
+[16:49:47] [main/INFO]: Loaded 1584 advancements
+[16:49:47] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.109 ms
+[16:49:47] [Server thread/INFO]: Starting background profiler...
+[16:49:47] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[16:49:47] [Server thread/INFO]: Loading properties
+[16:49:47] [Server thread/INFO]: Default game type: SURVIVAL
+[16:49:47] [Server thread/INFO]: Generating keypair
+[16:49:47] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:49:47] [Server thread/INFO]: Preparing level "world"
+[16:49:47] [Server thread/INFO]: [CM] Loaded 5 settings from carpet.conf
+[16:49:48] [Server thread/INFO]: Enforcing safe world random access
+[16:49:48] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 365.3 ms
+[16:49:48] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[16:49:49] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 5.037 ms
+[16:49:49] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 4.611 ms
+[16:49:49] [Server thread/INFO]: Loading 0 persistent chunks...
+[16:49:49] [Server thread/INFO]: Preparing spawn area: 100%
+[16:49:49] [Server thread/INFO]: Time elapsed: 120 ms
+[16:49:49] [Server thread/INFO]: Done (1.439s)! For help, type "help"
+[16:49:49] [Server thread/INFO]: Took 37ms to boot Floodgate
+[16:49:49] [Server thread/INFO]: ******************************************
+[16:49:49] [Server thread/INFO]: 
+[16:49:49] [Server thread/INFO]: Loading Geyser version 2.9.2-b1017 (git-master-f0815a9)
+[16:49:49] [Server thread/INFO]: 
+[16:49:49] [Server thread/INFO]: ******************************************
+[16:49:53] [GeyserServer-3-1/INFO]: Started Geyser on UDP port 57629
+[16:49:53] [Server thread/INFO]: Done (3.879s)! Run /geyser help for help!
+[16:49:53] [VoiceChatServerThread/ERROR]: [voicechat] Failed to bind to address '100.87.141.57', binding to wildcard IP instead
+[16:49:53] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 100.87.141.57:24454
+[16:49:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4155ms or 83 ticks behind
+[16:49:53] [Server thread/INFO]: [STDOUT]: [ScalableLux] Lighting scaling is enabled in externally managed mode
+[16:50:09] [User Authenticator #1/INFO]: UUID of player Kendez_ is 5da7aa0c-21d3-402f-9273-a9a0d209ca85
+[16:50:13] [Server thread/INFO]: Kendez_[/127.102.42.146:57391] logged in with entity id 12 at (46.51796381345944, 129.0, 179.42303290889012)
+[16:50:13] [Server thread/INFO]: [voicechat] Using Fabric Permissions API
+[16:50:13] [Server thread/INFO]: Kendez_ joined the game
+[16:50:14] [Server thread/INFO]: Syncmatica client joining with local version 0.3.15 and client version 0.3.15
+[16:50:14] [Server thread/INFO]: [voicechat] Received secret request of Kendez_ (20)
+[16:50:14] [Server thread/INFO]: [voicechat] Sent secret to Kendez_
+[16:50:28] [User Authenticator #2/INFO]: UUID of player MrGameBlaze is 4950d1b2-5e80-48c1-b0dc-31cf45be680b
+[16:50:31] [Server thread/INFO]: MrGameBlaze[/127.135.103.139:49461] logged in with entity id 236 at (-171.1769756664035, 128.0, 297.7834710861939)
+[16:50:31] [Server thread/INFO]: MrGameBlaze joined the game
+[16:50:31] [Server thread/INFO]: Syncmatica client joining with local version 0.3.15 and client version 0.3.15
+[16:50:33] [Server thread/INFO]: [voicechat] Received secret request of MrGameBlaze (20)
+[16:50:33] [Server thread/INFO]: [voicechat] Sent secret to MrGameBlaze
+[16:50:34] [Server thread/WARN]: Player MrGameBlaze joined with another carpet version: 1.4.194+v251223
+[16:51:23] [Server thread/INFO]: Kendez_ lost connection: Disconnected
+[16:51:23] [Server thread/INFO]: Kendez_ left the game
+[16:51:23] [Server thread/INFO]: [voicechat] Disconnecting client Kendez_
+[16:51:36] [Server thread/INFO]: Steve[local] logged in with entity id 745 at (0.0, 0.0, 0.0)
+[16:51:36] [Server thread/INFO]: Steve joined the game
+[16:52:59] [User Authenticator #3/INFO]: UUID of player Kendez_ is 5da7aa0c-21d3-402f-9273-a9a0d209ca85
+[16:53:01] [Server thread/INFO]: Kendez_[/127.102.42.146:49499] logged in with entity id 2308 at (43.60090829788759, 129.0, 179.3731846703578)
+[16:53:01] [Server thread/INFO]: Kendez_ joined the game
+[16:53:02] [Server thread/INFO]: Syncmatica client joining with local version 0.3.15 and client version 0.3.15
+[16:53:02] [Server thread/INFO]: [voicechat] Received secret request of Kendez_ (20)
+[16:53:02] [Server thread/INFO]: [voicechat] Sent secret to Kendez_
+[16:54:35] [Server thread/INFO]: Steve lost connection: Killed
+[16:54:35] [Server thread/INFO]: Steve left the game
+[16:54:35] [Server thread/INFO]: [voicechat] Disconnecting client Steve
+[16:58:52] [Server thread/INFO]: Kendez_ has made the advancement [Suit Up]
+[17:02:05] [Server thread/INFO]: Rusbik[local] logged in with entity id 10653 at (-83.5733701133761, 245.5, 366.7258133928335)
+[17:02:52] [spark-async-sampler-worker-thread/WARN]: Timed out waiting for world statistics
+[17:02:44] [User Authenticator #5/INFO]: UUID of player Kendez_ is 5da7aa0c-21d3-402f-9273-a9a0d209ca85
+[17:02:43] [User Authenticator #4/INFO]: UUID of player MrGameBlaze is 4950d1b2-5e80-48c1-b0dc-31cf45be680b
+[17:03:04] [Server thread/INFO]: Rusbik joined the game
+[17:03:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 58984ms or 1179 ticks behind
+[17:03:04] [Server thread/INFO]: MrGameBlaze lost connection: Disconnected
+[17:03:04] [Server thread/INFO]: MrGameBlaze left the game
+[17:03:04] [Server thread/INFO]: [voicechat] Disconnecting client MrGameBlaze
+[17:03:04] [Server thread/INFO]: Kendez_ lost connection: Disconnected
+[17:03:04] [Server thread/INFO]: Kendez_ left the game
+[17:03:04] [Server thread/INFO]: [voicechat] Disconnecting client Kendez_
+[17:03:04] [Server thread/INFO]: MrGameBlaze (/127.135.103.139:35543) lost connection: Disconnected
+[17:03:05] [Server thread/INFO]: Kendez_[/127.102.42.146:51525] logged in with entity id 10661 at (-64.98825188456448, 142.69047823769836, 342.9466218526585)
+[17:03:05] [Server thread/INFO]: Kendez_ joined the game
+[17:03:05] [Server thread/INFO]: [voicechat] Received secret request of Kendez_ (20)
+[17:03:05] [Server thread/INFO]: [voicechat] Sent secret to Kendez_
+[17:03:05] [Server thread/INFO]: Syncmatica client joining with local version 0.3.15 and client version 0.3.15
+[17:04:00] [User Authenticator #6/INFO]: UUID of player MrGameBlaze is 4950d1b2-5e80-48c1-b0dc-31cf45be680b
+[17:04:01] [Server thread/INFO]: MrGameBlaze[/127.135.103.139:49637] logged in with entity id 12332 at (-83.5733701133761, 245.5, 366.7258133928335)
+[17:04:01] [Server thread/INFO]: MrGameBlaze joined the game
+[17:04:01] [Server thread/INFO]: [voicechat] Received secret request of MrGameBlaze (20)
+[17:04:01] [Server thread/INFO]: [voicechat] Sent secret to MrGameBlaze
+[17:04:02] [Server thread/WARN]: Player MrGameBlaze joined with another carpet version: 1.4.194+v251223
+[17:04:29] [Server thread/INFO]: Rusbik has made the advancement [Monster Hunter]
+[17:04:40] [Server thread/INFO]: Steve[local] logged in with entity id 13030 at (0.0, 0.0, 0.0)
+[17:04:40] [Server thread/INFO]: Steve joined the game
+[17:05:10] [Server thread/INFO]: [MrGameBlaze: MrGameBlaze subscribed to tps.]
+[17:05:50] [Server thread/INFO]: Steve lost connection: Killed
+[17:05:50] [Server thread/INFO]: Steve left the game
+[17:05:50] [Server thread/INFO]: [voicechat] Disconnecting client Steve
+[17:05:57] [Server thread/INFO]: Steve[local] logged in with entity id 14918 at (-630.3000000119209, 193.0, 2937.456624716815)
+[17:05:57] [Server thread/INFO]: Steve joined the game
+[17:28:57] [Server thread/INFO]: Rusbik starved to death
+[17:28:57] [Server thread/INFO]: Rusbik lost connection: Rusbik died
+[17:28:57] [Server thread/INFO]: Rusbik left the game
+[17:28:57] [Server thread/INFO]: [voicechat] Disconnecting client Rusbik
+[17:30:25] [Server thread/INFO]: Steve lost connection: Killed
+[17:30:25] [Server thread/INFO]: Steve left the game
+[17:30:25] [Server thread/INFO]: [voicechat] Disconnecting client Steve
+[17:34:22] [Server thread/INFO]: MrGameBlaze lost connection: Disconnected
+[17:34:22] [Server thread/INFO]: MrGameBlaze left the game
+[17:34:22] [Server thread/INFO]: [voicechat] Disconnecting client MrGameBlaze
+[17:34:25] [Server thread/INFO]: Kendez_ lost connection: Disconnected
+[17:34:25] [Server thread/INFO]: Kendez_ left the game
+[17:34:25] [Server thread/INFO]: [voicechat] Disconnecting client Kendez_
+[17:34:28] [Server thread/INFO]: Stopping the server
+[17:34:28] [Server thread/INFO]: Shutting down Geyser.
+[17:34:28] [Server thread/INFO]: Geyser shutdown successfully.
+[17:34:28] [WebSocketConnectReadThread-83/INFO]: The skin uploader has been closed
+[17:34:30] [Server thread/INFO]: Stopping server
+[17:34:30] [Server thread/INFO]: Saving players
+[17:34:30] [Server thread/INFO]: Saving worlds
+[17:34:30] [Server thread/INFO]: ServerLevel[--HARCORE--]/minecraft:overworld: waiting for 841 chunks to unload
+[17:34:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[--HARCORE--]'/minecraft:overworld
+[17:34:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[--HARCORE--]'/minecraft:the_nether
+[17:34:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[--HARCORE--]'/minecraft:the_end
+[17:34:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:34:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:34:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:34:30] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:34:30] [C2ME Storage #3/INFO]: Storage thread Thread[#62,C2ME Storage #3,5,main] stopped
+[17:34:30] [C2ME Storage #2/INFO]: Storage thread Thread[#61,C2ME Storage #2,5,main] stopped
+[17:34:30] [C2ME Storage #1/INFO]: Storage thread Thread[#60,C2ME Storage #1,5,main] stopped
+[17:34:30] [C2ME Storage #6/INFO]: Storage thread Thread[#65,C2ME Storage #6,5,main] stopped
+[17:34:30] [C2ME Storage #5/INFO]: Storage thread Thread[#64,C2ME Storage #5,5,main] stopped
+[17:34:30] [C2ME Storage #4/INFO]: Storage thread Thread[#63,C2ME Storage #4,5,main] stopped
+[17:34:30] [C2ME Storage #9/INFO]: Storage thread Thread[#68,C2ME Storage #9,5,main] stopped
+[17:34:30] [C2ME Storage #8/INFO]: Storage thread Thread[#67,C2ME Storage #8,5,main] stopped
+[17:34:30] [C2ME Storage #7/INFO]: Storage thread Thread[#66,C2ME Storage #7,5,main] stopped
